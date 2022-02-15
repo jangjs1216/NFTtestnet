@@ -1,0 +1,65 @@
+.UpperNav{
+    align-items: center;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loginContainer{
+
+}
+
+
+.UpperNav a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.UpperNav a:link{
+    color: black;
+}
+
+.UpperNav a:visited{
+    color:black;
+}
+
+.UpperNav a:hover{
+    color: skyblue;
+}
+
+.TradeButton p{
+    color: black;
+    font-size: 30px;
+}
+
+.TradeButton :hover{
+    color: rgb(238, 154, 84);
+}
+
+.TradeButton {
+    width: 300px;
+    text-align: center;
+    background-color: #7C89FF;
+}
+
+.IntroP{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+.IntroBody{
+   display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+html{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

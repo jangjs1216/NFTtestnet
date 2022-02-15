@@ -6,10 +6,9 @@
     justify-content: space-between;
 }
 
-.loginContainer{
-
+.registerBox{
+   
 }
-
 
 .UpperNav a{
     margin-left: 10px;
@@ -35,19 +34,28 @@
 }
 
 .TradeButton :hover{
-    color: skyblue;
+    color: rgb(238, 154, 84);
 }
 
-
-.TradeButton {
+.TradeButton { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     text-align: center;
     background-color: #7C89FF;
 }
 
+.TradeButtonBody { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .IntroP{
     color: white;
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 100px;
     margin-top: 200px;
 }
@@ -56,10 +64,11 @@
    display: grid;
     justify-content: center;
     align-items: center;
+    
 }
 
 html{
-    background-image: url('picture/testBack.png');
+    background-image: url('/picture/testBack.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
