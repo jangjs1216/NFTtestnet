@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .UpperNav{
     align-items: center;
     height: 100px;
@@ -28,13 +34,14 @@
     color: skyblue;
 }
 
-.TradeButton p{
+.TradeButton{
     color: white;
     font-size: 30px;
 }
 
-.TradeButton :hover{
+.TradeButton:hover{
     color: rgb(238, 154, 84);
+   
 }
 
 .TradeButton { 
@@ -44,6 +51,7 @@
     width: 300px;
     text-align: center;
     background-color: #7C89FF;
+   
 }
 
 .TradeButtonBody { 
@@ -68,8 +76,9 @@
 }
 
 html{
-    background-image: url('/picture/testBack.png');
+    background-image: url('/picture/mainBack.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+   
 }
