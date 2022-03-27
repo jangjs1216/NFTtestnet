@@ -23,11 +23,11 @@
 }
 
 .UpperNav a:link{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .UpperNav a:visited{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .UpperNav a:hover{
